@@ -1,0 +1,341 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title hidden>ComboBox</title>
+    <link href="stylescombobo+.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+          <div class="logo"><a href="index.html">Ever-Ice</a></div>
+          <ul class="menu">
+              <li><a href="Ice-World.html">Cotizador</a></li>
+              <li><a href="RadioButtons.html">English Quiz</a></li>
+              <li><a href="ComboBox-questions.html">¿Conoces la capital?</a></li>
+          </ul>
+      </nav>
+  </header>
+  <div class="scrol"></div>
+  <script src="menu.js"></script>
+
+    <div id="general">
+      <h1>Capitalizate</h1>
+      <img src="assets/img/Bruselas.jpg" class="img-1">
+      <div id="question">
+        <label for="respuestaseleccion1">1. Bruselas, es la capital del país denominado:</label>
+          <select name="pregunta1" id="Bruselas" onchange="ShowSelected();">
+            <option value="">Seleccione una opción</option>
+            <option value="0">Guatemala</option>
+            <option value="1">Bélgica</option>
+            <option value="0">Buenos Aires</option>
+            <option value="0">Puerto Rico</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidauno'></p>
+      <p class="retro" id="retroalimentacion"></p>
+      <img src="assets/img/Buenos-aires.jpg" class="img-1">
+      <div id="question">
+        <label for="buenos-aires">2. La capital de Argentina es:</label>
+          <select name="Paises" id="buenos-aires" >
+            <option value="">Selecciona una opción</option>
+            <option value="0">Guatemala</option>
+            <option value="0">Belmopan</option>
+            <option value="1">Buenos Aires</option>
+            <option value="0">Puerto Rico</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidatwo'></p>
+      <p class="retro" id="retroalimentaciontwo"></p>
+      <img src="assets/img/San-jose.jpg" class="img-1">
+      <div id="question">
+        <label for="costa-rica">3. San José es la capital de:</label>
+          <select name="Paises" id="costa-rica" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Brasil</option>
+              <option value="0">Argentina</option>
+              <option value="0">Puerto Rico</option>
+              <option value="0">Venezuela</option>
+              <option value="1">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidatree'></p>
+      <p class="retro" id="retroalimentaciontree"></p>
+      <img src="assets/img/Caracas.jpg" class="img-1">
+      <div id="question">
+        <label for="Caracas">4. La capital de Venezuela es:</label>
+          <select name="Paises" id="Caracas" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Tegucigalpa</option>
+              <option value="0">Managua</option>
+              <option value="0">Panamá</option>
+              <option value="1">Caracas</option>
+              <option value="0">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidafour'></p>
+      <p class="retro" id="retroalimentacionfour"></p>
+      <img src="assets/img/Brasilia.jpg" class="img-1">
+      <div id="question">
+        <label for="Brasilia">5. Brasilia, es la capital del país:</label>
+          <select name="Paises" id="Brasilia" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Colombia</option>
+              <option value="0">Ecuador</option>
+              <option value="0">Paraguay</option>
+              <option value="0">Perú</option>
+              <option value="1">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidafive'></p>
+      <p class="retro" id="retroalimentacionfive"></p>
+      <img src="assets/img/Lima.jpg" class="img-1">
+      <div id="question">
+        <label for="Lima">6. La capital de Perú es:</label>
+          <select name="Paises" id="Lima" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Sucre</option>
+              <option value="0">Bogotá</option>
+              <option value="0">Montevideo</option>
+              <option value="1">Lima</option>
+              <option value="0">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidasix'></p>
+      <p class="retro" id="retroalimentacionsix"></p>
+      <img src="assets/img/Puerto-españa.jpg" class="img-1">
+      <div id="question">
+        <label for="Trinidad_y_Tobago">7. Puerto España es la capital de:</label>
+          <select name="Paises" id="Trinidad_y_Tobago" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Surinam</option>
+              <option value="0">Bolivia</option>
+              <option value="0">Brasil</option>
+              <option value="1">Trinidad y Tobago</option>
+              <option value="0">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidaseven'></p>
+      <p class="retro" id="retroalimentacionseven"></p>
+      <img src="assets/img/Habana.jpg" class="img-1">
+      <div id="question">
+        <label for="Habana">8. Cuba, país cuya capital es:</label>
+          <select name="Paises" id="Habana" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Kingston</option>
+              <option value="0"> Santo Domingo</option>
+              <option value="1">La habana</option>
+              <option value="0">Castries</option>
+              <option value="0">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidaeigth'></p>
+      <p class="retro" id="retroalimentacioneigth"></p>
+      <img src="assets/img/Managua.jpg" class="img-1">
+      <div id="question">
+        <label for="Nicaragua">9. Managua, es la capital que pertenece a:</label>
+          <select name="Paises" id="Nicaragua" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Panamá</option>
+              <option value="0">Honduras</option>
+              <option value="1">Nicaragua</option>
+              <option value="0">Belice</option>
+              <option value="0">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidanine'></p>
+      <p class="retro" id="retroalimentacionnine"></p>
+      <img src="assets/img/Quito.jpg" class="img-1">
+      <div id="question">
+        <label for="Quito">10. Ecuador, tiene como capital:</label>
+          <select name="Paises" id="Quito" >
+              <option value="">Selecciona una opción</option>
+              <option value="0">Parabarimo</option>
+              <option value="1">Quito</option>
+              <option value="0">Asunción</option>
+              <option value="0">Montevideo</option>
+              <option value="0">Ninguna de las anteriores</option>
+          </select>
+      </div>
+      <p class="respuest" id='textosalidaten'></p>
+      <p class="retro" id="retroalimentacionten"></p>
+    </div>
+
+    <div id="buttons">
+      <p class="resul" id="calf">Obtuviste una puntuacion de: </p>
+      <p> <button class="btn" id="evalu" onclick="Evaluar()">Evaluar</button> </p>
+      <p>  <button class="btn" id="clear" onclick="clean()">Reset</button> </p>
+      <script type="text/javascript">
+
+        function Evaluar(){
+            var comb1 = document.getElementById("Bruselas");
+            var comb2 = document.getElementById("buenos-aires");
+            var comb3 = document.getElementById("costa-rica");
+            var comb4 = document.getElementById("Caracas");
+            var comb5 = document.getElementById("Brasilia");
+            var comb6 = document.getElementById("Lima");
+            var comb7 = document.getElementById("Trinidad_y_Tobago");
+            var comb8 = document.getElementById("Habana");
+            var comb9 = document.getElementById("Nicaragua");
+            var comb10 = document.getElementById("Quito");
+            
+            var valorSelect = comb1.value;
+            var valorSelect2 = comb2.value;
+            var valorSelect3 = comb3.value;
+            var valorSelect4 = comb4.value;
+            var valorSelect5 = comb5.value;
+            var valorSelect6 = comb6.value;
+            var valorSelect7 = comb7.value;
+            var valorSelect8 = comb8.value;
+            var valorSelect9 = comb9.value;
+            var valorSelect10 = comb10.value;
+            
+            var parrafo = document.getElementById("calf");
+            let califi= parseInt(valorSelect)+parseInt(valorSelect2)+parseInt(valorSelect3)+parseInt(valorSelect4)+parseInt(valorSelect5)+parseInt(valorSelect6)+parseInt(valorSelect7)+parseInt(valorSelect8)+parseInt(valorSelect9)+parseInt(valorSelect10);
+            parrafo.style.display = "block";
+
+            calf.innerText="Tu calificaion en de "+ califi;
+            if(valorSelect==1){
+                textosalidauno.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidauno.innerText="    ❌" + "Incorrecta";
+                retroalimentacion.innerText="Bruselas es la cpital de Belgica";
+            }
+
+            if(valorSelect2==1){
+                textosalidatwo.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidatwo.innerText="    ❌" + "Incorrecta";
+                retroalimentaciontwo.innerText="Buenos aires es la capital de Argentina";
+            }
+
+            if(valorSelect3==1){
+                textosalidatree.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidatree.innerText="    ❌" + "Incorrecta";
+                retroalimentaciontree.innerText="La capital de Puerto Rico es San Jose";
+            }
+
+            if(valorSelect4==1){
+                textosalidafour.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidafour.innerText="    ❌" + "Incorrecta";
+                retroalimentacionfour.innerText="Caracas es la capital de Venezuela";
+            }
+
+            if(valorSelect5==1){
+                textosalidafive.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidafive.innerText="    ❌" + "Incorrecta";
+                retroalimentacionfive.innerText="Brasilia es la capital de Brasil";
+            }
+
+            if(valorSelect6==1){
+                textosalidasix.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidasix.innerText="    ❌" + "Incorrecta";
+                retroalimentacionsix.innerText="La capital de Peru es Lima";
+            }
+
+            if(valorSelect7==1){
+                textosalidaseven.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidaseven.innerText="    ❌" + "Incorrecta";
+                retroalimentacionseven.innerText="La capital de Trinidad y Tobago se llama Puerto España";
+            }
+
+            if(valorSelect8==1){
+                textosalidaeigth.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidaeigth.innerText="    ❌" + "Incorrecta";
+                retroalimentacioneigth.innerText="La Habana es la capital de Cuba";
+            }
+
+            if(valorSelect3==1){
+                textosalidanine.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidanine.innerText="    ❌" + "Incorrecta";
+                retroalimentacionnine.innerText="Nicaragua tiene su capital de nombre Managua";
+            }
+
+            if(valorSelect10==1){
+                textosalidaten.innerText="    ✔️" + "Correcta";
+            }else{
+                textosalidaten.innerText="    ❌" + "Incorrecta";
+                retroalimentacionten.innerText="Quito es la capital de Ecuador";
+            }
+        }
+
+        function clean(){
+
+            var parrafo = document.getElementById("calf");
+
+            var select = document.getElementById("Bruselas");
+            var select2 = document.getElementById("buenos-aires");
+            var select3 = document.getElementById("costa-rica");
+            var select4 = document.getElementById("Caracas");
+            var select5 = document.getElementById("Brasilia");
+            var select6 = document.getElementById("Lima");
+            var select7 = document.getElementById("Trinidad_y_Tobago");
+            var select8 = document.getElementById("Habana");
+            var select9 = document.getElementById("Nicaragua");
+            var select10 = document.getElementById("Quito");
+            var parrafo = document.getElementById("calf");
+            
+            select.selectedIndex = 0;
+            select2.selectedIndex = 0;
+            select3.selectedIndex = 0;
+            select4.selectedIndex = 0;
+            select5.selectedIndex = 0;
+            select6.selectedIndex = 0;
+            select7.selectedIndex = 0;
+            select8.selectedIndex = 0;
+            select9.selectedIndex = 0;
+            select10.selectedIndex = 0;
+
+            textosalidauno.innerText="";
+            retroalimentacion.innerText="";
+
+            textosalidatwo.innerText="";
+            retroalimentaciontwo.innerText="";
+
+            textosalidatree.innerText="";
+            retroalimentaciontree.innerText="";
+
+            textosalidafour.innerText="";
+            retroalimentacionfour.innerText="";
+
+            textosalidafive.innerText="";
+            retroalimentacionfive.innerText="";
+
+            textosalidasix.innerText="";
+            retroalimentacionsix.innerText="";
+
+            textosalidaseven.innerText="";
+            retroalimentacionseven.innerText="";
+
+            textosalidaeigth.innerText="";
+            retroalimentacioneigth.innerText="";
+
+            textosalidanine.innerText="";
+            retroalimentacionnine.innerText="";
+
+            textosalidaten.innerText="";
+            retroalimentacionten.innerText="";
+          
+            parrafo.style.display = "none";
+
+        }  
+
+    </script>
+    </div>
+  </body>
+  <footer class="footer" style="align-items: center;">
+    <div> 
+         <img src="assets/Ever-Ice-logo.png" class="img-2">
+        <p>
+        Copyright © Ever-Ice 2023
+        </p>
+
+    </div>
+</footer>
+</html>

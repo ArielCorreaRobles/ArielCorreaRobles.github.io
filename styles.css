@@ -1,0 +1,191 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7d5ea;
+}
+header{
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/img/Helado-oreo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.nav{
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  transition: all 0.5s ease;
+}
+.nav.active{
+  background-color: #FFFFFF;
+  padding: 15px;
+}
+.nav.active.logo,
+.nav.active.menu a{
+  color: #000000;
+}
+.nav.active a:hover{
+  background: #000000;
+  color: #FFFFFF;
+}
+.logo a {
+  font-size: 30px;
+  color: #000000;
+  font-weight: 100;
+  text-decoration: none;
+}
+.menu{
+  display: flex;
+}
+.menu li{
+  list-style: none;
+  margin: 10px;
+}
+.menu li a{
+  color: #000000;
+  text-decoration: none;
+}
+.menu li a:hover{
+  padding: 5px 10px;
+  background-color: #FFFFFF;
+  color: #F900A2;
+  border-radius: 15px;
+}
+a:hover{
+  color: #F900A2;
+}
+.scrol{
+  height: 100px;
+}
+h1 {
+  font-style: normal;
+  font-size: 40px;
+  color: #F900A2;
+}
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+div{
+  align-items: center;
+}
+.img-1{
+  width: 300px;
+  height: 200px;
+  align-items: center;
+}
+.img-2{
+  width: 30px;
+  height: 30px;
+  align-items: center;
+}
+div#general {
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: #e49aca;
+    height: auto;
+    width: 950px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 15px;
+  }
+  div#question {
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF;
+    width: 925px;
+    text-align: center;
+    border-width: 3px;
+    border-style: none;
+    border-color: #000000;
+  }
+  div#answer {
+    margin: auto;
+    margin-bottom: 15px;
+    background-color: #FFFFFF;
+    width: 250px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    text-align: center;
+    border-radius: 15px;
+  }
+  div#buttons {
+    margin: auto;
+    background-color: #FFFFFF;
+    height: auto;
+    width: 950px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 15px;
+  }
+footer{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+footer p{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
+p {
+    font-style: normal;
+    font-size: x-large;
+    color: #000000;
+}
+p#result{
+    font-style: normal;
+    font-size: medium;
+    color: #000000;
+}
+p#resp {
+    font-style: normal;
+    font-size: medium;
+    color: #000000;
+}
+label {
+    font-style: normal;
+    font-size: medium;
+    color: #000000;
+}
+button {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100px;
+    font-size: medium;
+    font-style: normal;
+    background-color: #BDBDBD;
+    border-radius: 15px;
+}
+.footer{
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-position: center;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+}
